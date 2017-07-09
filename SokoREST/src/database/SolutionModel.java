@@ -1,7 +1,12 @@
 package database;
 
 import java.io.Serializable;
-
+/**
+ * Solution JSON initialized model.
+ * transferd as a resource.
+ * @author Isan Rivkin and Daniel Hake.
+ *
+ */
 public class SolutionModel implements Serializable
 {
 	private String levelMap;

@@ -14,6 +14,12 @@ import database.SolutionModel;
 import database.SolutionP;
 
 //http://localhost:8080/SokoREST/updateSolver/get/{jsonSolution}
+/**
+ * Update a new solution to the database.
+ * recieves a json object as a solution (compressed) and saves to the database.
+ * @author Isan Rivkin
+ *
+ */
 @Path("/updatesolver")
 public class UpdateSolutionService extends Arena
 {

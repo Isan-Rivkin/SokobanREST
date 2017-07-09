@@ -1,9 +1,11 @@
 package database;
-
+/**
+ * A Leve solution query class.
+ * @author Isan Rivkin and Daniel Hake.
+ *
+ */
 public class SolutionQuery implements ISolutionQuery 
 {
-
-
 	private String levelMap;
 	private String levelSolution;
 	private Integer minSteps;

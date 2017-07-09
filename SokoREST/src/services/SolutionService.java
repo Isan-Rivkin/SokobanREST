@@ -21,6 +21,13 @@ import database.SolutionModel;
 import database.SolutionP;
 import database.SolutionQuery;
 //http://localhost:8080/SokoREST/solver/get/{jsonSolutionQuery}
+/**
+ * Solution Service.
+ * Recieve a json object solution model query and translate into real query.
+ * return solution as json if exist.
+ * @author Isan Rivkin and Daniel Hake.
+ *
+ */
 @Path("/solver")
 public class SolutionService extends Arena
 {
